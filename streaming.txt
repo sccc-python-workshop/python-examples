@@ -1,0 +1,20 @@
+Options for live streaming in a Jupyter notebook:
+
+-- drawnow: https://github.com/stsievert/python-drawnow
+
+-- some matplotlib hacks: 
+   http://stackoverflow.com/questions/11874767/real-time-plotting-in-while-loop-with-matplotlib
+
+-- matplotlib animation example: 
+   https://pythonprogramming.net/python-matplotlib-live-updating-graphs/
+
+   but according to this link:
+
+   http://nbviewer.jupyter.org/github/gregnordin/PythonShare/blob/master/matplotlib/matplotlib_backends_summary.ipynb
+
+   the MPL animation function does not work with inline in Jupyter
+   notebooks
+
+-- another offline example with plot.ly
+   https://www.reddit.com/r/IPython/comments/3tibc8/tip_on_how_to_run_plotly_examples_in_offline_mode/
+
